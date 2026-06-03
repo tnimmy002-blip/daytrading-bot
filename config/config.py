@@ -64,8 +64,8 @@ class BrokerConfig:
     broker: str = "alpaca"                   # alpaca | ibkr | tradier
     paper_trading: bool = True               # ALWAYS start in paper mode
     live_trading_enabled: bool = False       # must be manually set True
-    api_key: str = ""                        # set via environment variable
-    api_secret: str = ""                     # set via environment variable
+    api_key: str = "PK5QMZJYVUSIN4QFCEO2E5ERNQ"                        # set via environment variable
+    api_secret: str = "AnXXYcLSj71XPGXmanHs7JtsXmFUQDaFiStGhHFba47t"                     # set via environment variable
     base_url: str = "https://paper-api.alpaca.markets"
     data_feed: str = "iex"                   # iex | sip
 
